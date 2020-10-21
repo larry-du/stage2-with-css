@@ -1,0 +1,298 @@
+/* *{outline: 1px solid black;} */
+
+
+body , h1 , h3 , p{
+    margin:0;
+}
+
+button{
+    padding:0;
+    border:0;
+}
+
+body{
+    min-width: 1200px;
+}
+.background{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	opacity: 20%;
+}
+
+.background img{
+	width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color:#525050;
+    font-size: 0;
+}
+
+nav{
+    width: 1025px;
+    margin:0 auto;
+    padding: 33px 0;
+}
+
+
+h1{
+    display: inline-block;
+    font-size: 20px;
+    width: 216px;
+    vertical-align: middle;
+    letter-spacing: 9px;
+}
+
+h1 a{
+    color:#d4d4d4;
+}
+
+.menu{
+    display:inline-block;
+    font-size: 0;
+    width: 710px;
+    vertical-align: middle;
+}
+
+.menu > a{
+    color:#ececec;
+    margin-left:65px;
+    font-size: 18px;
+    padding:10px 0 ;
+    display:inline-block;
+}
+
+.menu > a:hover{
+    color: red;
+}
+
+button{
+    margin-left: 40px;
+    display:inline-block;
+}
+
+button img{
+    width: 38px;
+    vertical-align: middle; 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+section{
+    background-image:url(../image/cover.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 272px;
+    padding-bottom: 198px;
+}
+
+.banner{
+    width: 500px;
+    margin:0 auto;
+    background-color:rgba(238, 238, 238, 0.5);
+    padding: 15px 10px 20px;
+}
+
+.free_shipping{
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: #e4e4e4;
+    padding: 10px;
+}
+
+.banner h2{
+    width: 500px;
+    margin:0 auto;
+    font-size: 60px;
+    text-align: center;
+}
+
+.show_now{
+    width: 210px;
+    margin: 0px auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.show_now > a{
+    display:block;
+    color:white;
+    padding: 6px;
+    background-color: #2d2d2e;
+}
+
+.show_now a:hover{
+    color: red;
+}
+
+article{
+    width: 918px;
+    margin: 0 auto;
+    padding-top:62px;
+    padding-bottom: 59px;
+}
+
+article h3 , p{
+    text-align: center;
+}
+
+article h3{
+    font-size: 40px;
+    letter-spacing: 11px;
+}
+
+article h3::after{
+    content: "";
+    border-top:1px solid;
+    font-size: 0;
+    display:block;
+    width: 30px;
+    margin: 27px auto;
+}
+
+article p{
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-bottom: 64px;
+}
+
+.product{
+    font-size: 0;
+    text-align-last:justify;
+}
+
+.product a{
+    display:inline-block;
+    width: 298px;
+}
+
+.product > a >img{
+    width: 100%;
+    height: 417px;
+}
+
+footer{
+    background-color: #525050;
+}
+
+.content{
+    width: 840px;
+    margin:0 auto;
+    font-size: 0;
+    padding-top: 71px;
+    color:#c7c7c7;
+}
+
+
+.stay_content{
+    font-size: 0px;
+    width: 145px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.stay_content p{
+    font-size: 16px;
+}
+
+.stay_content a{
+    display: inline-block;
+    font-size: 20px;
+    color: #fcfcfc;
+    padding: 5px;
+}
+
+.stay_content a+a{
+    margin-left: 13px;
+}
+
+.stay_content a:hover{
+    color: red;
+}
+
+.be_our_friend{
+    font-size: 16px;
+    width: 313px;
+    color: #c7c7c7;
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+
+label , input{
+    box-sizing: border-box;
+}
+
+
+.input_label{
+    border: 1px solid #fcfcfc;
+    padding: 8px 0;
+    width: 100%;
+    background-color:#525050 ;
+    color:#fcfcfc;
+    margin-bottom: 5px;
+}
+
+::-ms-input-placeholder{
+    color: #ededed;
+    font-size: 16px;
+}
+
+input::placeholder{
+    color: #ededed;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+
+.input_button{
+    font-size: 16px;
+    display:block;
+    background-color: #d4d4d4;
+    width: 94px;
+    height: 36px;
+    margin-left:auto;
+}
+
+.input_button:hover{
+    cursor:pointer;
+}
+
+.need_assistance{
+    text-align: center;
+    font-size: 16px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.need_assistance a{
+    color:#c7c7c7 ;
+}
+
+.be_our_friend , .need_assistance{
+    margin-left: 117px;
+}
+
+.need_assistance span{
+    color: #fcfcfc;
+}
+
+
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    padding: 46px 0;
+}
+
+
+
