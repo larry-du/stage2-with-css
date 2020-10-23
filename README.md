@@ -6,6 +6,7 @@
 2. 原生 CSS
 3. display:flex、display:grid 不使用
 4. fontawesome(cdn)
+5. RWD 不考慮
 
 練習時間: 約 2 日(code review 後修改)
 
