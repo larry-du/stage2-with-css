@@ -11,7 +11,7 @@
 
 遇到困難點:
 1. view-port 特性
-2. 語意化標籤使用場景
+2. background-position、size 
 
 解決方式:
 1. 閱讀與尋找規範(w3.org)
